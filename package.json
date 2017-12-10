@@ -1,7 +1,7 @@
 {
   "name": "react-options",
   "version": "1.0.0",
-  "description": "react-options React component",
+  "description": "react-options",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -23,15 +23,26 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.3.0",
     "nwb": "0.20.x",
+    "prettier-eslint": "^8.2.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Alexander Yushchak (aka Coderbit)",
+  "homepage": "https://github.com/AlexCoderBit",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/AlexCoderBit/react-options.git",
   "keywords": [
-    "react-component"
+    "react-component",
+    "react",
+    "responsive",
+    "options",
+    "animated"
   ]
 }
