@@ -1,0 +1,163 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+section {
+  display: flex;
+  padding: 5em;
+  flex-direction: column;
+  height: 100%;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  background-color: #999454;
+  color: #ffffff;
+  font-size: 22px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.logo-react {
+  animation: logoAnimation infinite 20s linear;
+  height: 60px;
+}
+@keyframes logoAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header.main {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main > * {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.main-id {
+  width: 5%;
+}
+.main-title {
+  width: 20%;
+}
+.main-founded {
+  width: 20%;
+}
+.main-output {
+  width: 20%;
+}
+.main-employees {
+  width: 20%;
+}
+.main-details {
+  width: 15%;
+  text-align: center;
+  font-weight: 800;
+}
+.main-details img {
+  transform: rotate(180deg);
+}
+.main_content > * {
+  background: #f3f3f3;
+  border: 0px solid #d8d8d8;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.main_content .main-details {
+  font-size: 22px;
+  line-height: 10px;
+  background: rgb(204, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  width: 75%;
+  height: 100%;
+  background: rgb(167, 165, 165);
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-close {
+  margin: 5px 10px 0 10px;
+}
+.details-remove {
+  margin: 5px 10px 0 10px;
+}
+.details-options {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  background: blue;
+}
+.details-options a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  white-space: 100%;
+  color: white;
+  text-decoration: unset;
+  font-size: 1.5em;
+}
+.details-options a:first-child {
+  background: rgb(146, 145, 145);
+}
+.details-options a:nth-child(2) {
+  background: #4267b2;
+}
+
+/* OLD */
+
+.github-link {
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  color: #563d7c;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-item {
+  font-size: 18px;
+  font-variant: small-caps;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.menu-item:hover,
+.menu-item--active {
+  background-color: #f9f9f9;
+  text-decoration: underline;
+}
