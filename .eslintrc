@@ -7,6 +7,7 @@
   },
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
+    "no-debugger": "off",
     "no-underscore-dangle": 0,
     "react/jsx-filename-extension": 0,
     "import/no-named-default": 0,
