@@ -14,6 +14,14 @@ Feel free to use and suggest features or improve
 
 `npm install react-options`
 
+## Usage
+
+#### Expample
+
+#### API
+
+## Demo
+
 ## Tests
 
 `npm test`
@@ -23,8 +31,6 @@ Feel free to use and suggest features or improve
 MIT
 
 ---
-
-#### v 1.0.0
 
 This in an initial version of module with minimal core functionality which I neede for my own purposes, hope it might be usefull for others aswell.
 
