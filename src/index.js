@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import className from 'classnames';
-import './index.css';
+import './style.css';
 
 class ReactOptions extends PureComponent {
   componentWillReceiveProps() {}
